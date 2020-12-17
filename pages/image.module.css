@@ -1,0 +1,14 @@
+.backgroundImage {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width:400px;
+    height:400px;
+    background-image: url('./../images/image.jpg')
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .backgroundImage{
+        background-image: url('./../images/image@2x.jpg');
+    }
+}

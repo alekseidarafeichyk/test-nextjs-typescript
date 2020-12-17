@@ -1,0 +1,9 @@
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightblue;
+    width: 40%;
+    padding: 20px;
+    border-radius: 5px;
+}
